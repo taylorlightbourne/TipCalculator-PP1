@@ -1,1 +1,1 @@
-# Personal-Projects
+# Personal Project 1 - Tip Calculator
