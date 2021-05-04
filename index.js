@@ -1,6 +1,6 @@
-function newFunction(num) {
-    return "$" + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
-}
+// function newFunction(num) {
+//     return "$" + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+// }
 
 function tipCalc(){
 const billCost = document.querySelector("#cost").value
@@ -40,5 +40,6 @@ calcBtn.addEventListener('click', function(e){
 tipCalc()
 changeButtonColor()
 })
+
 
 
