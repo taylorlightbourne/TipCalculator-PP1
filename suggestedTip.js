@@ -1,35 +1,40 @@
 //Suggested Tip
 
 function tipCalc(){
-    const billCost = document.querySelector(".cost").value
-    const billCostConverted = parseInt(billCost)
-
-    const tipTotal10 = billCostConverted * 0.10
-    const tipTotal15 = billCostConverted * 0.15
-    const tipTotal20 = billCostConverted * 0.20
     
-    const displayTip10 = document.querySelector(".10tip")
-    displayTip10.innerText = tipTotal10
-
-    const displayTip15 = document.querySelector(".15tip")
-    displayTip15.innerText = tipTotal15
+    // grab the input values
+    const billAmount = document.querySelector("#cost").value;
     
-    const displayTip20 = document.querySelector(".20tip")
-    displayTip20.innerText = tipTotal20
+    //turn strings into numbers
+    const billAmountNumber = parseFloat(billAmount);
     
-    }
+    // calculations
+    const totalAmountTen = (0.10 * billAmountNumber);
+    const totalAmountFifteen = (0.15 * billAmountNumber);
+    const totalAmountTwenty = (0.20 * billAmountNumber);
     
-    const calcBtn = document.querySelector("#calculateBtn")
-    function alertMe(){
-    alert("ERROR!")
-    }
+    const tipTotalTen = document.querySelector(".ten-tip");
+    tipTotalTen.innerHTML = "$" + (totalAmountTen).toFixed(2);
 
-    function changeButtonColor(){
+    const tipTotalFifteen = document.querySelector(".fifteen-tip");
+    tipTotalFifteen.innerHTML =  "$" + (totalAmountFifteen).toFixed(2);
 
-        let color = Math.floor(Math.random() * 16777215).toString(16)
-        
-        calcBtn.style.backgroundColor = `#${color}`
-        }
+    const tipTotalTwenty = document.querySelector(".twenty-tip");
+    tipTotalTwenty.innerHTML = "$" + (totalAmountTwenty).toFixed(2);
+
+}
+
+const calcBtn = document.querySelector("#calculateBtn")
+function alertMe(){
+alert("ERROR!")
+}
+
+function changeButtonColor(){
+    
+    let color = Math.floor(Math.random() * 16777215).toString(16)
+    
+    calcBtn.style.backgroundColor = `#${color}`
+}
         
         calcBtn.addEventListener('click', function(e){
         tipCalc()

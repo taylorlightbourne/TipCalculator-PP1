@@ -1,6 +1,6 @@
-// function newFunction(num) {
-//     return "$" + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
-// }
+function newFunction(num) {
+    return "$" + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+}
 
 function tipCalc(){
 const billCost = document.querySelector("#cost").value
@@ -8,6 +8,7 @@ const billCostConverted = parseInt(billCost)
 const tipAmount = document.querySelector("#tip").value
 const tipAmountConverted = parseInt(tipAmount)
 const tipTotal = billCostConverted * (tipAmountConverted / 100)
+
 const amountPaid = billCostConverted + tipTotal
 const convertedAmountPaid = newFunction(amountPaid)
 
