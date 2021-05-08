@@ -1,14 +1,10 @@
 //Suggested Tip
 
 function tipCalc(){
-    
-    // grab the input values
     const billAmount = document.querySelector("#cost").value;
     
-    //turn strings into numbers
     const billAmountNumber = parseFloat(billAmount);
     
-    // calculations
     const totalAmountTen = (0.10 * billAmountNumber);
     const totalAmountFifteen = (0.15 * billAmountNumber);
     const totalAmountTwenty = (0.20 * billAmountNumber);
