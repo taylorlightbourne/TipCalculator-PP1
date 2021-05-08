@@ -42,5 +42,11 @@ tipCalc()
 changeButtonColor()
 })
 
-
+const input = document.getElementById("tip");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("calculateBtn").click();
+  }
+});
 
