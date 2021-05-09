@@ -9,7 +9,7 @@ Features:
 </ul>
 
 <h3>User Flow - https://www.figma.com/community/file/973016377815795954</h3>
-https://www.figma.com/community/file/973016377815795954
-
 ![image](https://user-images.githubusercontent.com/79942688/117556848-3b564280-b03b-11eb-8bcb-5ba01d3ae1e4.png)
 
+<h3>Sitemap - https://www.figma.com/community/file/973035229002898678</h3>
+![image](https://user-images.githubusercontent.com/79942688/117557802-e0c1e400-b044-11eb-9153-aebadcf953f8.png)
