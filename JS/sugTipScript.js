@@ -7,17 +7,32 @@ function tipCalc(){
     
     const totalAmountTen = (0.10 * billAmountNumber);
     const totalAmountFifteen = (0.15 * billAmountNumber);
+    const totalAmountEighteen = (0.18 * billAmountNumber);
     const totalAmountTwenty = (0.20 * billAmountNumber);
     
     const tipTotalTen = document.querySelector(".ten-tip");
-    tipTotalTen.innerHTML = "$" + (totalAmountTen).toFixed(2);
+    tipTotalTen.innerHTML = "A 10% tip would be $" + (totalAmountTen).toFixed(2);
+    
+    const billTotalTen = document.querySelector(".ten-total");
+    billTotalTen.innerHTML = "Total Bill: $" + (totalAmountTen + billAmountNumber);
 
     const tipTotalFifteen = document.querySelector(".fifteen-tip");
-    tipTotalFifteen.innerHTML =  "$" + (totalAmountFifteen).toFixed(2);
+    tipTotalFifteen.innerHTML = "A 15% tip would be $" + (totalAmountFifteen).toFixed(2);
+
+    const billTotalFifteen = document.querySelector(".fifteen-total");
+    billTotalFifteen.innerHTML = "Total Bill: $" + (totalAmountFifteen + billAmountNumber);
+
+    const tipTotalEighteen = document.querySelector(".eighteen-tip");
+    tipTotalEighteen.innerHTML = "A 18% tip would be $" + (totalAmountEighteen).toFixed(2);
+
+    const billTotalEighteen = document.querySelector(".eighteen-total");
+    billTotalEighteen.innerHTML = "Total Bill: $" + (totalAmountEighteen + billAmountNumber);
 
     const tipTotalTwenty = document.querySelector(".twenty-tip");
-    tipTotalTwenty.innerHTML = "$" + (totalAmountTwenty).toFixed(2);
+    tipTotalTwenty.innerHTML = "A 20% tip would be $" + (totalAmountTwenty).toFixed(2);
 
+    const billTotalTwenty = document.querySelector(".twenty-total");
+    billTotalTwenty.innerHTML = "Total Bill: $" + (totalAmountTwenty + billAmountNumber);
 }
 
 const calcBtn = document.querySelector("#calculateBtn")
