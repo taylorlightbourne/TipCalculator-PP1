@@ -1,5 +1,5 @@
 function newFunction(num) {
-    return "$" + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+    return num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
 }
 
 function tipCalc(){
@@ -13,14 +13,14 @@ const amountPaid = billCostConverted + tipTotal
 const convertedAmountPaid = newFunction(amountPaid)
 
 const displayTip = document.querySelector(".tipAmount")
-displayTip.innerText = tipTotal
+displayTip.innerText = "$" + tipTotal
 
 const displayTotal = document.querySelector(".total")
-displayTotal.innerText = convertedAmountPaid
+displayTotal.innerText = "$" + convertedAmountPaid
 
 const grabList = document.querySelector(".prev-bill")
 const listItem = document.createElement("li")
-listItem.innerText = amountPaid
+listItem.innerText = "$" + amountPaid
 grabList.append(listItem)
 
 }
