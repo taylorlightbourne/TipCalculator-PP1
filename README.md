@@ -14,4 +14,4 @@ Features:
 
 <h2>User Flow</h2>
 https://www.figma.com/community/file/973016377815795954
-![image](https://user-images.githubusercontent.com/79942688/117556745-29c06b00-b03a-11eb-8ddd-7d3176eb907f.png)
+![image](https://user-images.githubusercontent.com/79942688/117556816-f4684d00-b03a-11eb-81e7-d85a064816cd.png)
