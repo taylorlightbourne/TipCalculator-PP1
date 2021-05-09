@@ -9,7 +9,8 @@ Features:
 </ul>
 
 <h3>User Flow - https://www.figma.com/community/file/973016377815795954</h3>
-![image](https://user-images.githubusercontent.com/79942688/117556848-3b564280-b03b-11eb-8bcb-5ba01d3ae1e4.png)
+![image](https://user-images.githubusercontent.com/79942688/117558919-14a20700-b04f-11eb-810e-8571857b9ed0.png)
 
 <h3>Sitemap - https://www.figma.com/community/file/973035229002898678</h3>
-![image](https://user-images.githubusercontent.com/79942688/117557802-e0c1e400-b044-11eb-9153-aebadcf953f8.png)
+![image](https://user-images.githubusercontent.com/79942688/117558907-f9cf9280-b04e-11eb-9931-3a9ac1109aa2.png)
+
