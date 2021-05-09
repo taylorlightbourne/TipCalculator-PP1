@@ -10,21 +10,23 @@
     <link rel="stylesheet" href="../CSS/tipCalcStyles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <nav>
+    <div class="main-container">
+        <nav>
+            <a href="index.html">
                 <img src="../Assests/logo.png" width="50px" height="50px">
-            </nav>
-            <main class="screen-contents">
-                <div class="header-container">
-                    <h1 class="header">Tip Calculator</h1>
-                </div>
+            </a>
+        </nav>
+        <main class="screen-contents">
+            <div class="header-container">
+                <h1 class="header">Tip Calculator</h1>
+            </div>
+            <div class="contents">
                 <label for="cost">Cost ($)</label>
                 <input type="text" class="cost" name="cost" id="cost" placeholder="Bill Amount">
                 <label for="tip">Tip (%)</label>
                 <input type="text" class="tip" name="tip" id="tip" placeholder="Tip Percentage">
                 <button id="calculateBtn" type="button">Calculate Total</button>
-                
+                        
                 <h3>Tip Amount: </h3>
                 <h3 class="tipAmount"></h3>
 
@@ -32,10 +34,9 @@
                 <h3 class="total"></h3>
 
                 <h3>Previous Bill Amounts </h3>
-                <ul class="prev-bill">
-                </ul>
-            </main>
-        </div>
+                <ul class="prev-bill"></ul>
+            </div>
+        </main>
     </div>
 </body>
 <script src="../js/tipCalcScript.js"></script>
