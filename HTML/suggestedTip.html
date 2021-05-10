@@ -10,33 +10,48 @@
     <link rel="stylesheet" href="../CSS/sugTipStyles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <nav>
+    <div class="main-container">
+        <nav>
+            <a href="index.html">
                 <img src="../Assests/logo.png" width="50px" height="50px">
-            </nav>
-            <main class="screen-contents">
-                <div class="header-container">
-                    <h1 class="header">Tip Suggestions</h1>
+            </a>
+        </nav>
+        <main class="screen-contents">
+            <div class="header-container">
+                <h1 class="header">Tip Suggestions</h1>
+            </div>
+
+            <div class="input-container">
+                <h3><label for="cost">Bill Amount</label></h3>
+
+                <div class="input-content">
+                    <h3 class="dollar">$</h3>
+                    <input type="text" class="cost" name="cost" id="cost">
                 </div>
-                <label for="cost">Cost ($)</label>
-                <input type="text" class="cost" name="cost" id="cost" placeholder="Bill Amount">
-                
-                <button id="calculateBtn" type="button">Calculate Total</button>
-                
-                <h3 class="ten-tip"></h3>
-                <h3 class="ten-total"></h3>
+            </div>
 
-                <h3 class="fifteen-tip"></h3>
-                <h3 class="fifteen-total"></h3>
-
-                <h3 class="eighteen-tip"></h3>
-                <h3 class="eighteen-total"></h3>
-
-                <h3 class="twenty-tip"></h3>
-                <h3 class="twenty-total"></h3>
-            </main>
-        </div>
+            <div class="button">
+                <button id="calculateBtn" type="button">=</button>
+            </div>
+            <div class="output-container"> 
+                <div id="tip-group">
+                    <h3 class="ten-tip">A 10% tip would be  </h3>
+                    <h3 class="ten-total">Total Bill: $</h3>
+                </div>
+                <div id="tip-group">
+                    <h3 class="fifteen-tip">A 15% tip would be  </h3>
+                    <h3 class="fifteen-total">Total Bill: $</h3>
+                </div>
+                <div id="tip-group">
+                    <h3 class="eighteen-tip">A 18% tip would be  </h3>
+                    <h3 class="eighteen-total">Total Bill: $</h3>
+                </div>
+                <div id="tip-group">
+                    <h3 class="twenty-tip">A 20% tip would be  </h3>
+                    <h3 class="twenty-total">Total Bill: $</h3>
+                </div>
+            </div>
+        </main>
     </div>
 </body>
 <script src="../js/sugTipScript.js"></script>
