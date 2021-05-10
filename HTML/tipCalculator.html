@@ -21,11 +21,20 @@
             <div class="header-container">
                 <h1 class="header">Tip Calculator</h1>
             </div>
-            <div class="input-contents">
+            <div class="input-container">
                 <h3><label for="cost">Bill Amount</label></h3>
-                <input type="text" class="cost" name="cost" id="cost" placeholder="$">
+
+                <div class="input-content">
+                    <h3 class="dollar">$</h3>
+                    <input type="text" class="cost" name="cost" id="cost">
+                </div>
+
                 <h3><label for="tip">Tip Percentage</label></h3>
-                <input type="text" class="tip" name="tip" id="tip" placeholder="%">
+
+                <div class="input-content">
+                    <input type="text" class="tip" name="tip" id="tip">
+                    <h3 class="percent">%</h3>
+                </div>
             </div>
             <div class="button">
                 <button id="calculateBtn" type="button">=</button>
@@ -37,7 +46,7 @@
                 <h3>Total Amount of Bill: </h3>
                 <h3 class="total"></h3>
 
-                <h3>Previous Bill Amounts </h3>
+                <h3>Previous Bill Amounts: </h3>
                 <h3><ul class="prev-bill"></ul></h3>
             </div>
         </main>
@@ -45,4 +54,3 @@
 </body>
 <script src="../js/tipCalcScript.js"></script>
 </html>
-
