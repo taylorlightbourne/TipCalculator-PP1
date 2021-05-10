@@ -9,16 +9,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/homeStyles.css">
 </head>
-<body>
-    <div class="main-container">
-        <nav>
-            <img src="../Assests/logo.png" width="100px" height="100px">
-        </nav>
-        <main class="screen-contents">
-            <a href="calculator.html">Calculator</a>
-            <a href="tipCalculator.html">Tip Calculator</a>
-            <a href="suggestedTip.html">Suggested Tip</a>
-        </main>
-    </div>
+<body> 
+        <div class="container">
+            <nav>
+                <img src="../Assests/logo.png" width="100px" height="100px">
+            </nav>
+            <main class="screen-contents">
+                <a href="calculator.html">Calculator</a>
+                <a href="tipCalculator.html">Tip Calculator</a>
+                <a href="suggestedTip.html">Suggested Tip</a>
+            </main>
+            <div class="toggle">
+                <label id="switch" class="switch">
+                    <input type="checkbox" onchange="toggleTheme()" id="slider">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
 </body>
+<script src="../JS/homeScript.js"></script>
 </html>
