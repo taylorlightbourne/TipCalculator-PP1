@@ -43,6 +43,8 @@ button {
   height: 64px;
   border-radius: 50%;
   background: #5E60CE;
+  border: 1px solid white;  
+  outline: none;  
   font-size: 36px;
   line-height: 42px;
   color: white;
