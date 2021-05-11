@@ -18,7 +18,7 @@ body {
   padding-bottom: 20px;
 }
 a {
-  width: 300px;
+  width: 250px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -52,8 +52,8 @@ nav {
   --color-secondary: #2a2c2d;
 }
 .container {
-  width: 433px;
-  height: 864px;
+  width: 375.29px;
+  height: 812px;
   display: flex;
   background: var(--color-secondary);
   flex-direction: column;

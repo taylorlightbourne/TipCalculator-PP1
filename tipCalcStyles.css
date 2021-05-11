@@ -9,14 +9,14 @@ body {
   
 }
 .main-container {
-  width: 433px;
-  height: 864px;
+  width: 375px;
+  height: 812px;
   border-radius: 50px;
   background: white;
   overflow-y: auto;
 }
 .screen-contents {
-  width: 433px;
+  width: 375px;
   height: 500px;
 }
 nav {

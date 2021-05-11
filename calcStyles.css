@@ -7,14 +7,14 @@ body {
   height: 100vh;
 }
 .main-container {
-  width: 433px;
-  height: 864px;
+  width: 375px;
+  height: 812px;
   border-radius: 50px;
   background: white;
   overflow-y: auto;
 }
 .screen-contents {
-  width: 433px;
+  width: 375px;
 
 }
 nav {
@@ -39,8 +39,8 @@ nav {
   align-content: center;
 }
 .output {
-  width: 433px;
-  height: 200px; 
+  width: 375px;
+  height: 180px; 
 }
 .previous-operand {
 display: flex;
@@ -71,7 +71,7 @@ height: 80px;
   display: grid;   
   grid-template-columns: repeat(4, 80px);  
   grid-template-rows: repeat(5, 80px);
-  margin-left: 15%;
+  margin-left: 10%
 
 }
 
