@@ -115,3 +115,8 @@ button {
 {
   background-color: #01497C
 }
+@media screen and (max-width: 375px) {
+  #button-ac, #button-divide, #button-multipy {
+    margin-right: 5%;
+  }
+}
