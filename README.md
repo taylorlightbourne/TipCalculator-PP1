@@ -1,6 +1,7 @@
 # Personal Project 1 - Tip Calculator
 
 HTML, CSS, and JavaScript
+https://taylorlightbourne.github.io/TipCalculator-PP1/
 
 <h3>User Flow - https://www.figma.com/community/file/973016377815795954</h3>
 ![image](https://user-images.githubusercontent.com/79942688/117558919-14a20700-b04f-11eb-810e-8571857b9ed0.png)
