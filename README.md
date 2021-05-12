@@ -1,6 +1,6 @@
 <h1>Tip Calculator</h1>
 <h3>Deploy Link: https://taylorlightbourne.github.io/TipCalculator-PP1/</h3>
-<p>This weather app was developed using HTML, CSS, and JavaScript. <br>
+<p>This app was developed using HTML, CSS, and JavaScript. <br>
 The home page has three buttons that provide different options to navigate to other pages. <br>
 There is a page for a basic calculator, a tip calculator, and a page that provides suggested tip options. <br>
 A color theme switch is available to change the background, based on the user's preference. </p>
